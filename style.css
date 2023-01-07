@@ -73,7 +73,7 @@ span{
 
 }
 .plan-skill img {
-    width: 90px;
+    width: 110px;
 }
 
 .skill-name {
@@ -90,15 +90,21 @@ span{
     color: #737272;
 }
 /* my part end */
+
+.watch-area{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
 .watch {
 
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.843491) 39.83%, rgba(241, 91, 34, 0.335858) 76.04%, rgba(241, 91, 34, 0) 100%),
         url(images/watch.png);
     background-repeat: no-repeat;
-    width: 740px;
+    /* width: 740px; */
     height: 210px;
     margin-top: 60px;
-    margin-left: 80px;
     border-radius: 8px;
     margin-bottom: 50px;
 
@@ -111,7 +117,7 @@ span{
     color: #FFFFFF;
     margin-left: 40px;
     padding-top: 40px;
-    margin-right: 3s00px;
+    
 }
 
 .watch-btn {
@@ -122,6 +128,28 @@ span{
     padding: 10px;
     color: #F15B22;
 }
+
+/* location area added style */
+.container {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.container-text {
+margin-left: 45%;
+font-family: 'Work Sans', sans-serif;
+
+}
+
+.location-area {
+    display: flex;
+
+}
+
+.google-maps {
+    margin-right: 20px;
+
+}
+
 /*---footer section starts from here--*/
 
 
@@ -129,7 +157,16 @@ span{
     display: flex;
     background: #151414;
     color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 
+
+}
+.footer-icons {
+    
+    margin-right: 40px;
+    width: 520px;
 
 }
 
@@ -139,7 +176,7 @@ span{
     font-size: 30px;
     color: #F8F8F8;
     margin-bottom: 7px;
-    padding-left: 20px;
+  
 
 }
 
@@ -151,7 +188,7 @@ span{
 }
 
 .icons-picture {
-    margin-right: 10px;
+    margin-left: 0%;
     width: 30px;
     height: 50px;
 }
@@ -169,8 +206,9 @@ span{
     background: #151414;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-bottom: 10px;
+    padding-right: 2px;
 }
 
 #btn-subscribe {
@@ -180,5 +218,6 @@ span{
     background: #FFFFFF;
     border-radius: 8px;
     padding: 5px;
+   
 }
 
